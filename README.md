@@ -87,14 +87,27 @@ These features help identify patients with a higher risk of readmission.
 
 ---
 
-# 🚀 Future Improvements
+🚀 Future Improvements
 
-Possible improvements for this project:
+Planned enhancements to further improve the project:
 
-* Hyperparameter tuning
-* Using advanced models such as XGBoost
-* Building a deployment dashboard
-* Creating a real-time prediction system
+* Hyperparameter tuning using GridSearchCV / RandomizedSearchCV
+
+* Implementation of advanced models like XGBoost and LightGBM
+
+* Handling class imbalance using SMOTE or class weighting
+
+* Advanced evaluation using stratified cross-validation
+
+* Model explainability using SHAP or LIME
+
+* Deployment using Flask / Streamlit for real-time predictions
+
+* Integration with real-world healthcare systems
+
+* Building an interactive dashboard for insights visualization
+
+* Continuous model monitoring and retraining pipeline
 
 ---
 
